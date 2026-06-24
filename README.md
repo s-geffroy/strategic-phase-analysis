@@ -1,5 +1,8 @@
 # Strategic Phase Analysis
 
+[![validate](https://github.com/s-geffroy/strategic-phase-analysis/actions/workflows/validate.yml/badge.svg)](https://github.com/s-geffroy/strategic-phase-analysis/actions/workflows/validate.yml)
+[![deploy-pages](https://github.com/s-geffroy/strategic-phase-analysis/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/s-geffroy/strategic-phase-analysis/actions/workflows/deploy-pages.yml)
+
 **Nom public FR :** Analyse des phases géopolitiques
 **Nom public EN :** Strategic Phase Analysis
 
@@ -65,3 +68,14 @@ docker compose run --rm base python scripts/validate_evidence_minimums.py cases/
 - Pas de transition watch sans au moins 3 signaux documentés.
 - Aucun P0 sans 10 sources datées.
 - Les contradictions doivent rester visibles.
+
+## Contribuer
+
+Voir [`CONTRIBUTING.md`](CONTRIBUTING.md). Tout passe par Docker (aucune installation locale).
+
+## Licence
+
+Projet sous **double licence** :
+
+- **Code** (`scripts/`, tests, `Dockerfile`, `docker-compose.yml`, workflows GitHub Actions) — [MIT](LICENSE).
+- **Contenu** (méthode, cas, templates, schémas, prompts, publications, site `docs/`) — [Creative Commons Attribution 4.0 (CC BY 4.0)](LICENSE-CONTENT.md).

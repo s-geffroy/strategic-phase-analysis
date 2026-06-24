@@ -60,6 +60,7 @@ nav:
       - Règles de transition watch: methode/04_transition_watch_rules.md
       - Exigences de preuve: methode/05_evidence_requirements.md
       - Règles de validation: methode/06_validation_rules.md
+      - Journal de corrections & feuille V1.1: methode/09_method_corrections_log.md
   - Cas P0:
       - Mer Rouge / Bab el-Mandeb: cas/p0_red_sea_bab_el_mandeb.md
       - Détroit d'Ormuz: cas/p0_hormuz.md
@@ -67,6 +68,8 @@ nav:
       - Ukraine / mer Noire / céréales / énergie: cas/p0_ukraine_black_sea_grain_energy.md
   - Matrice comparative: matrice.md
   - Publication:
-      - Publication scientifique: publication/01_scientific_publication_explanation.md
-      - Publication grand public: publication/02_conflits_publication_explanation.md
+      - Article scientifique: publication/03_article_scientifique.md
+      - Article grand public: publication/04_article_grand_public.md
+      - "Angle — publication scientifique": publication/01_scientific_publication_explanation.md
+      - "Angle — publication grand public": publication/02_conflits_publication_explanation.md
   - Annexe scientifique: annexe-scientifique.md

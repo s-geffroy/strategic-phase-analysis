@@ -35,6 +35,7 @@ METHOD_PUBLIC = {
     "04_transition_watch_rules.md": "Règles de transition watch",
     "05_evidence_requirements.md": "Exigences de preuve",
     "06_validation_rules.md": "Règles de validation",
+    "09_method_corrections_log.md": "Journal de corrections & feuille V1.1",
 }
 
 # Ordre d'assemblage des fichiers d'un cas dans sa page.
@@ -57,9 +58,15 @@ def read(path: Path) -> str:
     return path.read_text(encoding="utf-8")
 
 
+REPO_BLOB = "https://github.com/s-geffroy/strategic-phase-analysis/blob/main"
+
+
 def build_index():
     readme = read(ROOT / "README.md")
-    # On réutilise le README mais on retire le lien auto-référent vers le site.
+    # Les fichiers de dépôt (licences, contributing) ne sont pas des pages du site :
+    # on pointe vers GitHub pour éviter les liens cassés en build --strict.
+    for target in ("CONTRIBUTING.md", "LICENSE-CONTENT.md", "LICENSE"):
+        readme = readme.replace(f"]({target})", f"]({REPO_BLOB}/{target})")
     write("index.md", readme)
 
 
@@ -112,8 +119,10 @@ def build_matrix():
 def build_publication():
     pub_dir = ROOT / "publication"
     mapping = {
-        "01_scientific_publication_explanation.md": "Publication scientifique",
-        "02_conflits_publication_explanation.md": "Publication grand public",
+        "01_scientific_publication_explanation.md": "Angle — publication scientifique",
+        "02_conflits_publication_explanation.md": "Angle — publication grand public",
+        "03_article_scientifique.md": "Article scientifique",
+        "04_article_grand_public.md": "Article grand public",
     }
     for filename in mapping:
         src = pub_dir / filename
