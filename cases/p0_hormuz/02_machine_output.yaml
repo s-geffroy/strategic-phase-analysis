@@ -1,0 +1,68 @@
+schema_version: spa_v1
+case_id: hormuz
+criticality: P0
+active_case: true
+method_name: strategic_phase_analysis
+
+scale:
+  - crisis
+  - corridor
+  - chokepoint
+
+dominant_phase:
+  phase_id: resilient_security_order
+  short_label_fr: phase résiliente
+  full_label_fr: ordre de sécurité résiliente
+
+secondary_phases:
+  - phase_id: localized_coercive_nodes
+    applies_to: le point de passage (zone de brouillage, mines, présence IRGC)
+    rationale: Noyau de contrainte dure localisée, militarisé et mobilisable comme levier malgré la réouverture.
+  - phase_id: stratified_interdependence_order
+    applies_to: la dimension économico-énergétique mondiale du corridor
+    rationale: Coopération commerciale (flux vers l'Asie) et rivalité sécuritaire (sanctions, présence navale) coexistent en couches distinctes.
+
+modifiers:
+  - metastable
+  - hardened_by_repeated_stress
+  - polyphased
+
+support_scores:
+  geopolitical_temperature: 3
+  geopolitical_carbon: 4
+  cooling_option_closure: 2
+  coercion_density: 4
+  institutional_ductility: 2
+  diplomatic_option_space: 2
+  logistical_stress: 4
+  economic_interdependence: 5
+  strategic_rivalry: 4
+  historical_residual_stress: 4
+  resilience: 3
+  fissure_risk: 3
+
+transition_watch:
+  - transition_id: transformative_to_brittle_rapid_hardening
+    public_label_fr: durcissement coercitif rapide
+    from_phase: resilient_security_order
+    to_phase: brittle_coercive_order
+    risk_level: high
+    validation_status: under_review
+
+source_pack:
+  source_count: 19
+  freshness_check:
+    latest_source_date: "2026-06-01"
+    oldest_source_date: "2025-06-16"
+    stale_risk: low
+
+evidence_counts:
+  dominant_phase_evidence_items: 5
+  transition_watch_documented_signals: 3
+
+analyst_validation:
+  required: true
+  status: analyst_review_required
+
+confidence: medium
+evidence_status: strong

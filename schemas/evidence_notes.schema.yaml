@@ -1,0 +1,16 @@
+schema_version: evidence_notes_v1
+requirements:
+  dominant_phase_min_evidence_items: 3
+  transition_watch_min_documented_signals: 3
+  critical_score_requires_rationale_if_value_at_least: 4
+  freshness_check_required_for_active_cases: true
+sections:
+  - source_basis
+  - freshness_check
+  - evidence_for_dominant_phase
+  - evidence_for_secondary_phases
+  - transition_watch_evidence
+  - critical_score_justifications
+  - uncertainties
+  - contradictions
+  - analyst_note

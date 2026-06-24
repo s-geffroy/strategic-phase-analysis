@@ -1,0 +1,34 @@
+schema_version: spa_v1
+case_id: ukraine_black_sea_grain_energy
+criticality: P0
+active_case: true
+method_name: strategic_phase_analysis
+scale: [crisis, corridor, chokepoint]
+dominant_phase: {phase_id: brittle_coercive_order, short_label_fr: phase cassante, full_label_fr: ordre coercitif cassant}
+secondary_phases:
+  - {phase_id: localized_coercive_nodes, applies_to: "centrale occupée de Zaporijjia, Crimée occupée, détroit de Kertch", rationale: "points de verrouillage et infrastructures sous contrainte coercitive localisée gérés par dispositifs techniques d'exception"}
+  - {phase_id: stratified_interdependence_order, applies_to: "corridor céréalier de la mer Noire et coopération de sûreté AIEA", rationale: "coopération fonctionnelle résiduelle (alimentation, sûreté nucléaire) coexistant en couches distinctes avec la coercition militaire"}
+modifiers: [hardened_by_repeated_stress, metastable, polyphased]
+support_scores:
+  geopolitical_temperature: 5
+  geopolitical_carbon: 4
+  cooling_option_closure: 4
+  coercion_density: 5
+  institutional_ductility: 2
+  diplomatic_option_space: 1
+  logistical_stress: 4
+  economic_interdependence: 2
+  strategic_rivalry: 5
+  historical_residual_stress: 4
+  resilience: 3
+  fissure_risk: 4
+transition_watch:
+  - {transition_id: brittle_to_systemic_fissure, public_label_fr: fissuration systémique, from_phase: brittle_coercive_order, to_phase: unstructured, risk_level: high, validation_status: under_review}
+  - {transition_id: brittle_to_resilient_post_crisis_stabilization, public_label_fr: stabilisation post-crise, from_phase: brittle_coercive_order, to_phase: resilient_security_order, risk_level: medium, validation_status: under_review}
+source_pack:
+  source_count: 22
+  freshness_check: {latest_source_date: "2026-06-21", oldest_source_date: "2025-10-23", stale_risk: low}
+evidence_counts: {dominant_phase_evidence_items: 5, transition_watch_documented_signals: 5}
+analyst_validation: {required: true, status: analyst_review_required}
+confidence: medium
+evidence_status: strong

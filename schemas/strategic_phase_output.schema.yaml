@@ -1,0 +1,57 @@
+schema_version: spa_v1
+required_files:
+  - 00_short_diagnostic.md
+  - 01_full_analytical_fiche.md
+  - 02_machine_output.yaml
+  - 03_decision_synthesis.md
+  - 04_evidence_notes.md
+  - 05_validation_log.md
+
+allowed_phase_ids:
+  - absorptive_institutional_order
+  - active_transformation_order
+  - stratified_interdependence_order
+  - resilient_security_order
+  - brittle_coercive_order
+  - localized_coercive_nodes
+
+allowed_modifiers:
+  - polyphased
+  - metastable
+  - fragmented_under_constraint
+  - degraded_from_within
+  - hardened_by_repeated_stress
+  - weakened_by_repeated_stress
+  - over_normalized
+  - unstructured
+
+allowed_validation_status:
+  - draft_llm_prefill
+  - analyst_review_required
+  - analyst_validated
+  - rejected
+  - needs_more_evidence
+
+allowed_confidence:
+  - low
+  - medium
+  - high
+
+allowed_evidence_status:
+  - weak
+  - partial
+  - strong
+
+support_score_keys:
+  - geopolitical_temperature
+  - geopolitical_carbon
+  - cooling_option_closure
+  - coercion_density
+  - institutional_ductility
+  - diplomatic_option_space
+  - logistical_stress
+  - economic_interdependence
+  - strategic_rivalry
+  - historical_residual_stress
+  - resilience
+  - fissure_risk

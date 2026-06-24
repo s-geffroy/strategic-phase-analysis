@@ -1,0 +1,73 @@
+schema_version: spa_v1
+case_id: red_sea_bab_el_mandeb
+criticality: P0
+active_case: true
+method_name: strategic_phase_analysis
+
+scale:
+  - crisis
+  - corridor
+  - chokepoint
+
+dominant_phase:
+  phase_id: localized_coercive_nodes
+  short_label_fr: phase coercitive locale
+  full_label_fr: noyaux de coercition fragile
+
+secondary_phases:
+  - phase_id: stratified_interdependence_order
+    applies_to: couche commerce / logistique du corridor
+    rationale: >-
+      Coopération commerciale résiduelle (retour test sélectif de porteurs)
+      et rivalité sécuritaire coexistent en couches distinctes ; reprise
+      marginale en glissement annuel sur une base très déprimée (-60 % vs 2023).
+  - phase_id: brittle_coercive_order
+    applies_to: scénario prospectif du corridor sur déclencheur régional
+    rationale: >-
+      Liaison explicite de l'action maritime à l'escalade Iran/Israel/USA et
+      menace de fermeture probable du Bab el-Mandeb : potentiel de bascule vers
+      polarisation rapide et fermeture des options.
+
+modifiers:
+  - metastable
+  - hardened_by_repeated_stress
+
+support_scores:
+  geopolitical_temperature: 4
+  geopolitical_carbon: 4
+  cooling_option_closure: 3
+  coercion_density: 4
+  institutional_ductility: 2
+  diplomatic_option_space: 2
+  logistical_stress: 4
+  economic_interdependence: 4
+  strategic_rivalry: 3
+  historical_residual_stress: 3
+  resilience: 3
+  fissure_risk: 4
+
+transition_watch:
+  - transition_id: local_coercive_to_brittle_contagion
+    public_label_fr: contagion coercitive
+    from_phase: localized_coercive_nodes
+    to_phase: brittle_coercive_order
+    risk_level: high
+    validation_status: under_review
+
+source_pack:
+  source_count: 15
+  freshness_check:
+    latest_source_date: "2026-06-19"
+    oldest_source_date: "2025-11-01"
+    stale_risk: low
+
+evidence_counts:
+  dominant_phase_evidence_items: 4
+  transition_watch_documented_signals: 4
+
+analyst_validation:
+  required: true
+  status: analyst_review_required
+
+confidence: medium
+evidence_status: partial

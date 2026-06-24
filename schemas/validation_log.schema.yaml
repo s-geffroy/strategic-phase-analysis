@@ -1,0 +1,12 @@
+schema_version: validation_log_v1
+required:
+  - case_id
+  - review_date
+  - analyst
+  - status
+  - dominant_phase_validation
+  - rejected_alternatives
+  - critical_scores_reviewed
+  - transition_watch_reviewed
+  - evidence_review
+  - final_validation

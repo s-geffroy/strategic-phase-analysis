@@ -1,0 +1,23 @@
+schema_version: source_pack_v1
+criticality_levels:
+  P0:
+    min_sources: 10
+    target_sources: "10-20"
+  P1:
+    min_sources: 5
+    target_sources: "5-10"
+  P2:
+    min_sources: 3
+    target_sources: "3-5"
+  Lab:
+    min_sources: 0
+    target_sources: "variable"
+
+required_fields:
+  - source_id
+  - title
+  - source_type
+  - date
+  - reliability
+  - relevance
+  - reference

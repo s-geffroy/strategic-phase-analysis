@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# MkDocs : docs/ et site/ sont générés par scripts/build_site.py + mkdocs
+docs/
+site/
+
+# OS / éditeurs
+.DS_Store
+*.code-workspace

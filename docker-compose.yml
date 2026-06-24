@@ -1,0 +1,39 @@
+# Tout passe par un conteneur : aucune installation locale.
+#
+#   docker compose build
+#   docker compose run --rm validate     # pytest + 4 validateurs + export matrice
+#   docker compose run --rm build        # build_site.py + mkdocs build --strict
+#   docker compose up serve              # prévisualisation sur http://localhost:8000
+services:
+  base:
+    build: .
+    image: strategic-phase-analysis:latest
+    working_dir: /work
+    volumes:
+      - .:/work
+
+  validate:
+    image: strategic-phase-analysis:latest
+    build: .
+    working_dir: /work
+    volumes:
+      - .:/work
+    command: ["python", "scripts/run_all_validations.py"]
+
+  build:
+    image: strategic-phase-analysis:latest
+    build: .
+    working_dir: /work
+    volumes:
+      - .:/work
+    command: ["bash", "-c", "python scripts/build_site.py && mkdocs build --strict"]
+
+  serve:
+    image: strategic-phase-analysis:latest
+    build: .
+    working_dir: /work
+    volumes:
+      - .:/work
+    ports:
+      - "8000:8000"
+    command: ["bash", "-c", "python scripts/build_site.py && mkdocs serve -a 0.0.0.0:8000"]

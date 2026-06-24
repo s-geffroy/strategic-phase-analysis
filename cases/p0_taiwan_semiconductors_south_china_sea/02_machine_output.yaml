@@ -1,0 +1,68 @@
+schema_version: spa_v1
+case_id: taiwan_semiconductors_south_china_sea
+criticality: P0
+active_case: true
+method_name: strategic_phase_analysis
+
+scale:
+  - crisis
+  - corridor
+  - chokepoint
+
+dominant_phase:
+  phase_id: stratified_interdependence_order
+  short_label_fr: phase stratifiée
+  full_label_fr: ordre d'interdépendance stratifiée
+
+secondary_phases:
+  - phase_id: brittle_coercive_order
+    applies_to: couche militaire et symbolique du détroit de Taïwan
+    rationale: Polarisation, langage coercitif et fermeture du compromis dominants (blocus simulé, rhétorique de réunification inéluctable).
+  - phase_id: localized_coercive_nodes
+    applies_to: zones contestées de mer de Chine méridionale (Scarborough Shoal)
+    rationale: Verrouillage coercitif localisé via garde-côtes, barrières flottantes et présence navale, sans extension systémique.
+
+modifiers:
+  - polyphased
+  - metastable
+  - hardened_by_repeated_stress
+
+support_scores:
+  geopolitical_temperature: 4
+  geopolitical_carbon: 5
+  cooling_option_closure: 3
+  coercion_density: 4
+  institutional_ductility: 2
+  diplomatic_option_space: 2
+  logistical_stress: 3
+  economic_interdependence: 5
+  strategic_rivalry: 5
+  historical_residual_stress: 4
+  resilience: 3
+  fissure_risk: 4
+
+transition_watch:
+  - transition_id: stratified_to_brittle_delamination
+    public_label_fr: délamination coercitive
+    from_phase: stratified_interdependence_order
+    to_phase: brittle_coercive_order
+    risk_level: high
+    validation_status: under_review
+
+source_pack:
+  source_count: 14
+  freshness_check:
+    latest_source_date: "2026-06-23"
+    oldest_source_date: "2025-09-30"
+    stale_risk: low
+
+evidence_counts:
+  dominant_phase_evidence_items: 5
+  transition_watch_documented_signals: 5
+
+analyst_validation:
+  required: true
+  status: analyst_review_required
+
+confidence: medium
+evidence_status: partial

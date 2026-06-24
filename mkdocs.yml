@@ -1,0 +1,72 @@
+site_name: Strategic Phase Analysis
+site_description: Analyse des phases géopolitiques — méthode de diagnostic des régimes de transformation
+site_url: https://s-geffroy.github.io/strategic-phase-analysis/
+repo_url: https://github.com/s-geffroy/strategic-phase-analysis
+repo_name: s-geffroy/strategic-phase-analysis
+copyright: Strategic Phase Analysis — méthode heuristique, validation humaine obligatoire
+
+# docs/ est généré par scripts/build_site.py
+docs_dir: docs
+
+theme:
+  name: material
+  language: fr
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - navigation.footer
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+    - toc.follow
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Passer en mode sombre
+    - scheme: slate
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Passer en mode clair
+
+plugins:
+  - search:
+      lang: fr
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - tables
+  - attr_list
+  - md_in_html
+
+nav:
+  - Accueil: index.md
+  - Méthode:
+      - Spécification de la méthode: methode/01_method_specification.md
+      - Taxonomie des phases: methode/02_phase_taxonomy.md
+      - Règles de scoring: methode/03_scoring_rules.md
+      - Règles de transition watch: methode/04_transition_watch_rules.md
+      - Exigences de preuve: methode/05_evidence_requirements.md
+      - Règles de validation: methode/06_validation_rules.md
+  - Cas P0:
+      - Mer Rouge / Bab el-Mandeb: cas/p0_red_sea_bab_el_mandeb.md
+      - Détroit d'Ormuz: cas/p0_hormuz.md
+      - Taïwan / semi-conducteurs / mer de Chine: cas/p0_taiwan_semiconductors_south_china_sea.md
+      - Ukraine / mer Noire / céréales / énergie: cas/p0_ukraine_black_sea_grain_energy.md
+  - Matrice comparative: matrice.md
+  - Publication:
+      - Publication scientifique: publication/01_scientific_publication_explanation.md
+      - Publication grand public: publication/02_conflits_publication_explanation.md
+  - Annexe scientifique: annexe-scientifique.md
