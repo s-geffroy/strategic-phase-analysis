@@ -2,6 +2,9 @@
 
 > Article grand public, à visée stratégique. Une analogie en ouverture, puis vocabulaire géopolitique uniquement.
 
+!!! note "Données au 24 juin 2026"
+    Les cas évoqués sont des configurations **actives**, arrêtées au 24 juin 2026 et susceptibles d'évoluer. Ce sont des lectures révisables, validées par un analyste — non des verdicts.
+
 ## 1. Accroche
 
 Quand un métallurgiste chauffe puis refroidit une pièce d'acier, il ne change pas seulement sa température : il change sa **structure interne**. Selon la vitesse du refroidissement, le même métal devient souple et travaillable, ou dur et cassant. Les ordres géopolitiques connaissent des transformations comparables. Une crise ne se contente pas de monter ou de redescendre en intensité ; elle laisse derrière elle un **ordre d'un certain type**. La vraie question stratégique n'est donc pas seulement « est-ce que ça s'aggrave ? », mais « **quel ordre cette crise est-elle en train de fabriquer ?** ».
@@ -43,7 +46,11 @@ Les corridors maritimes et les chokepoints sont les points où la puissance se m
 
 ## 7. Ce que la méthode change pour l'analyse stratégique
 
-Nommer la phase, c'est nommer le **type de risque** et donc le **type de levier**. Un ordre résilient appelle des garanties et des mécanismes de vérification ; un ordre cassant appelle d'abord la gestion de l'escalade et la préservation des canaux de crise ; un noyau coercitif local appelle la surveillance de la contagion ; une interdépendance stratifiée appelle de protéger les couches de coopération qui retiennent encore la rupture. La méthode oblige aussi à **rendre visibles les contradictions** et à dater les preuves : un diagnostic n'est jamais un verdict, c'est une lecture révisable, validée par un analyste.
+Nommer la phase, c'est nommer le **type de risque** et donc le **type de levier**. Un ordre résilient appelle des garanties et des mécanismes de vérification ; un ordre cassant appelle d'abord la gestion de l'escalade et la préservation des canaux de crise ; un noyau coercitif local appelle la surveillance de la contagion ; une interdépendance stratifiée appelle de protéger les couches de coopération qui retiennent encore la rupture. Concrètement : à Ormuz, le bon levier n'est pas d'accroître la pression mais de **préserver l'accord** qui tient le détroit ouvert ; à Taïwan, c'est de **protéger les canaux militaires de crise** bien plus que de répondre coup pour coup sur la couche symbolique.
+
+Deux dynamiques méritent une vigilance particulière, car elles avancent masquées. La **délamination** (Taïwan) : la couche militaire peut basculer dans la coercition et finir par entraîner une couche économique pourtant coopérative. La **fissuration systémique** (Ukraine) : un incident localisé — une centrale nucléaire qui perd son alimentation, une escalade pétrolière en mer — peut faire céder tout un théâtre. Ce sont des ruptures par **effet de bord**, non par décision frontale : c'est précisément ce qui les rend faciles à sous-estimer.
+
+La méthode oblige enfin à **rendre visibles les contradictions** et à dater les preuves : un diagnostic n'est jamais un verdict, c'est une lecture révisable, validée par un analyste.
 
 ## 8. Conclusion
 
