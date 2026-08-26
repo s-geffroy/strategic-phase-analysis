@@ -3,7 +3,9 @@ site_description: Analyse des phases géopolitiques — méthode de diagnostic d
 site_url: https://s-geffroy.github.io/strategic-phase-analysis/
 repo_url: https://github.com/s-geffroy/strategic-phase-analysis
 repo_name: s-geffroy/strategic-phase-analysis
-copyright: Strategic Phase Analysis — méthode heuristique, validation humaine obligatoire
+copyright: >-
+  Strategic Phase Analysis — méthode heuristique, validation humaine obligatoire ·
+  un travail de <a href="https://www.ligne-de-crete.fr/travaux/phases-strategiques/">Ligne de crête</a>
 
 # docs/ est généré par scripts/build_site.py
 docs_dir: docs
