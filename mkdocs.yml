@@ -75,3 +75,6 @@ nav:
       - "Angle — publication scientifique": publication/01_scientific_publication_explanation.md
       - "Angle — publication grand public": publication/02_conflits_publication_explanation.md
   - Annexe scientifique: annexe-scientifique.md
+
+extra_javascript:
+  - https://www.ligne-de-crete.fr/kit/v1/ldc-kit.js
