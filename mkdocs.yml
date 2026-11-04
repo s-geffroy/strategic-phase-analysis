@@ -13,6 +13,7 @@ docs_dir: docs
 theme:
   name: material
   custom_dir: overrides
+  favicon: assets/favicon/favicon.svg
   language: fr
   features:
     - navigation.tabs

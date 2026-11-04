@@ -6,6 +6,9 @@
     descendrait d'autant a son arrivee (CLS). -#}
 {% block extrahead %}
   {{ super() }}
+  <link rel="icon" href="{{ 'assets/favicon/icon-32.png' | url }}" type="image/png" sizes="32x32">
+  <link rel="icon" href="{{ 'assets/favicon/icon-16.png' | url }}" type="image/png" sizes="16x16">
+  <link rel="apple-touch-icon" href="{{ 'assets/favicon/apple-touch-icon.png' | url }}">
   <style>ldc-bandeau:not(:defined){display:block;height:33px}</style>
 {% endblock %}
 
